@@ -1,0 +1,155 @@
+:root {
+    --background-dark: #1e1e1e;     /* Main background */
+    --card-dark: #192f1d;           /* Cards background */
+    --primary-green: #00ff66;       /* Progress bar highlight */
+    --text-white: #ffffff;          /* Main text color */
+    --text-muted: #9ca3af;          /* Muted/secondary text */
+    --input-bg: #1e1e1e;            /* Input box background */
+    --button-bg: #2c2c2c;           /* Button background */
+    --button-border: #444444;       /* Button border */
+    --progress-bg: #003300;         /* Background of progress ring */
+  }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Inter',sans-serif;
+    background-color: rgb(61, 102, 124);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--background-dark);
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 600px;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 10px;
+    justify-content: start;
+}
+
+.user p{
+    color: var(--text-muted);
+}
+
+.user-input-container{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#user-input{
+    width: 70%;
+    background-color: var(--input-bg);
+    border: 1px solid var(--button-border);
+    color: white;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+
+#search-button{
+    margin-left: 10px;
+    padding: 0.4rem;
+    border-radius: 5px;
+    width: 25%;
+    background-color: var(--button-bg);
+    border: 1px solid var(--button-border);
+    color: white;
+    
+}
+
+.stats-container{
+    visibility: hidden;
+}
+
+.progress-item{
+    height: 120px;
+    width: 120px;
+    
+    border-radius: 50%;
+   
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient(var(--primary-green) var(--progress-degree,0%),var(--progress-bg) 0%) ;
+   
+}
+.circle{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    background-color: var(--progress-bg);
+}
+.circle span{
+    position: relative;
+    z-index: 2;
+}
+
+.progress{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:10px;
+  
+}
+
+.stats-card{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content:space-evenly;
+   
+}
+.card{
+    background-color: var(--card-dark);
+    width: 40%;
+    max-width: 290px;
+    min-height: 4rem;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 1px solid #3d6b53;
+   
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+
+    
+}
+.card h4{
+    font-size: 0.9rem;
+}
