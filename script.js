@@ -64,9 +64,9 @@ document.addEventListener("DOMContentLoaded",function(){
 
         const cardData=[
             {label:"Overall Subissions",value:totalSolved},
-            {label:"Overall Easy Submissions",value:totalEasy},
-            {label:"Overall Medium Submissions",value:totalMedium},
-            {label:"Overall Hard Submissions",value:totalHard}
+            {label:"Easy Submissions",value:easySolved},
+            {label:"Medium Submissions",value:mediumSolved},
+            {label:"Hard Submissions",value:hardSolved}
         ];
 
         cardsStatsContainer.innerHTML=cardData.map(
