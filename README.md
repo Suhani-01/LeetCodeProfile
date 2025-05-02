@@ -8,5 +8,8 @@ The Dashboard shows:
               3)Medium Submissions
               4)Hard Submissions
 
-The data is extracted with the help of API.... here is the api :
+
+The data is extracted with the help of API.... here is the api : `https://leetcode-stats-api.herokuapp.com/${username}`
 ![image](https://github.com/user-attachments/assets/14a49a66-ad34-4abe-97fa-b4ae22afde3a)
+
+
