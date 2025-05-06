@@ -1,3 +1,5 @@
+Visit the webSite : leet-code-profile.vercel.app
+(Enter your LeetCode profile username)
 The Website LeetMetric allow user to enter their usename (eg. Suhani_01) and view detailed statictics about their coding practice. 
 The Dashboard shows:
        A search bar to enter the user's profile
