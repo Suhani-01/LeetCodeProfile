@@ -40,14 +40,6 @@ A simple and interactive web app where you can enter any LeetCode username and i
 
 ---
 
-## 👩‍💻 Author
-
-**Suhani**  
-GitHub: [@suhani-01](https://github.com/suhani-01)
-
----
-
-🔄 *Project is actively being updated with new features like dark mode and recent submission history.*
 
 ![image](https://github.com/user-attachments/assets/14a49a66-ad34-4abe-97fa-b4ae22afde3a)
 
